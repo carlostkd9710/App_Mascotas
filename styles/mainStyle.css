@@ -51,8 +51,6 @@ a{
 .navbar-mobile{
 display: none;
 }
-
-
 .btn-perros, .btn-gatos {
     border-radius: 8px;
     padding: 8px;
@@ -86,9 +84,32 @@ display: none;
     height:50px;
     width: 50px;
 }
-
-
-
+#img-perfil{
+    width: 25%;
+    height:25%;
+}
+.card{
+    border: none;
+    background-color: rgba(33, 37, 41, 0)
+}
+.card-img{
+    width:70%;
+    height:70%;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.card-title{
+    color:whitesmoke;
+}
+ #container-cards{
+     margin-left: 10%;
+     align-items: center;
+     justify-content: center;
+   /*  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
 
 
 @media only screen and (max-width:1024px){
@@ -103,16 +124,18 @@ display: none;
         bottom: 0;
         left: 0;
         padding: 10px;
+        margin-bottom: 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
         background-color: var(--bgcolor-secondary);
     }
     .navbar-mobile img{
-        font-size: 8vmin ;
         cursor: pointer;
+        width: 100%;
+        height: 100%;
     }
-    .navbar-mobile li:hover img{
-        color: var(--bgcolor-primary);
-    }
+    /* .navbar-mobile li:hover{
+
+    } */
 }

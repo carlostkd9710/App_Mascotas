@@ -11,13 +11,12 @@ const getElementos = async (url) => {
     data.forEach((element) => {
         const { url, nombre, descripcion } = element;
         mostrarElementos.innerHTML += `
-        <div class="col elementos">
+        <div id="container-cards" class="col elementos">
 
-                <div class="card bg-dark text-white gradiente">
-                    <img src="${url}" class="card-img" alt="...">
+                <div class="card text-white gradiente">
+                    <img src="${url}" class="card-img" alt="${nombre}">
                     <div class="card-img-overlay">
                             <h3 class="card-title body2Bold">${nombre}</h3>
-                            <h4></h4>
                             <p>descripcion ${descripcion}</p>
                     </div>
                 </div>
