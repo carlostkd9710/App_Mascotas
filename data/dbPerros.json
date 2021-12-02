@@ -1,0 +1,82 @@
+{
+    "perros":[
+        {
+            "id":"1",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082123/App_mascotas/Samoyedo_endfci.jpg",
+            "nombre":"Pulpo",
+            "edad":"3 meses",
+            "descripcion":"prueba"
+        },
+        {
+            "id":"2",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082123/App_mascotas/labrador_cadxo1.jpg",
+            "nombre":"Token",
+            "edad":"5 meses",
+            "descripcion":"prueba"
+        },{
+            "id":"3",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082123/App_mascotas/yorkshire_muyd1d.jpg",
+            "nombre":"Flash",
+            "edad":"2 meses",
+            "descripcion":"prueba"
+        },{
+            "id":"4",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082123/App_mascotas/bulldog_cvymyv.jpg",
+            "nombre":"Fresco",
+            "edad":"9 meses",
+            "descripcion":"prueba"
+        },{
+            "id":"5",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082123/App_mascotas/pastoraleman_t7sf5h.jpg",
+            "nombre":"Rocky",
+            "edad":"6 meses",
+            "descripcion":"prueba"
+        },{
+            "id":"6",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082123/App_mascotas/chihuahua_nedrhj.jpg",
+            "nombre":"Tobby",
+            "edad":"4 meses",
+            "descripcion":"prueba"
+        }
+    ],
+    "gatos":[
+        {
+            "id":"1",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082274/App_mascotas/gato3_fwjirn.jpg",
+            "nombre":"Pelos",
+            "edad":"3 meses",
+            "descripcion":"prueba"
+        },
+        {
+            "id":"2",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082275/App_mascotas/gato6_klsmjd.jpg",
+            "nombre":"Motas",
+            "edad":"5 meses",
+            "descripcion":"prueba"
+        },{
+            "id":"3",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082275/App_mascotas/gato1_n6el7p.jpg",
+            "nombre":"Copo",
+            "edad":"2 meses",
+            "descripcion":"prueba"
+        },{
+            "id":"4",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082275/App_mascotas/gato2_idkijq.jpg",
+            "nombre":"Loquillo",
+            "edad":"9 meses",
+            "descripcion":"prueba"
+        },{
+            "id":"5",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082275/App_mascotas/gato4_g5ubs7.jpg",
+            "nombre":"Lechuga",
+            "edad":"6 meses",
+            "descripcion":"prueba"
+        },{
+            "id":"6",
+            "url": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638082275/App_mascotas/gato5_jptrza.jpg",
+            "nombre":"Fede",
+            "edad":"4 meses",
+            "descripcion":"prueba"
+        }
+    ]
+}

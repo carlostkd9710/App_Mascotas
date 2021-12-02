@@ -1,0 +1,118 @@
+:root {
+    --bgcolor-primary:#FEC7D7;
+    --bgcolor-secondary:#FFFFFE;
+    --color-black: #0e172c;
+    --color-blue: #91c1d7;
+/*
+    --color-primary: rgb(42, 42, 42);
+    --color-secundary: #A786DF;
+    --font-family: "Nunito";
+    --font-color:rgb(204, 204, 204);
+    --color-yellow: #c4d791;
+    --color-green: #85d185;
+    --color-gray: #535353;
+    --color-tertiary: #D9D4E7;
+    --color-black: #0E172C;
+    --bs-secondary: #0E172C; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bgcolor-primary);
+}
+.navbar{
+    padding: 5px 10px;
+    display: flex;
+    width:100%;
+    align-items: center;
+    background-color: var(--bgcolor-primary);
+}
+.navbar ul{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--bgcolor-secondary);
+}
+.title-logo{
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.navbar-mobile{
+display: none;
+}
+
+
+.btn-perros, .btn-gatos {
+    border-radius: 8px;
+    padding: 8px;
+    background: var(--color-black);
+    width: 155px;
+    height: 80px;
+    left: 172px;
+    top: 0px;
+}
+#imagen-perros, #imagen-gatos {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: -5px;
+}
+#imagen-perros{
+    height: 50px;
+    width: auto;
+}
+#imagen-gatos{
+    height: 50px;
+    width: auto;
+}
+.categoria-gatos, .categoria-perros {
+    padding-top: 8%;
+}
+
+.icono-gatos, .icono-perros {
+    border-radius: 100%;
+    background: var(--color-blue);
+    margin-left: 15px;
+    height:50px;
+    width: 50px;
+}
+
+
+
+
+
+@media only screen and (max-width:1024px){
+    .navbar .navbar-desk{
+        display: none;
+    }
+    .navbar-mobile{
+        display: block;
+        color: black;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--bgcolor-secondary);
+    }
+    .navbar-mobile img{
+        font-size: 8vmin ;
+        cursor: pointer;
+    }
+    .navbar-mobile li:hover img{
+        color: var(--bgcolor-primary);
+    }
+}
